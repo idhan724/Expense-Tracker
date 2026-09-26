@@ -13,8 +13,8 @@ function Dashboard() {
         <div className="flex items-center gap-2">
           <MonthSlider onChange={setCurrentMonth} />
           {isCurrentMonth(currentMonth) && (
-            <Badge className="bg-green-50 text-green-500 dark:bg-green-950 dark:text-green-300">
-              This is Month
+            <Badge className="text-income-deep bg-income-light p-3 text-sm">
+              This Month
             </Badge>
           )}
         </div>
