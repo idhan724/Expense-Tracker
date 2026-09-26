@@ -17,7 +17,7 @@ function MonthSlider({ onChange }: MonthSliderProps) {
   };
 
   return (
-    <div className="flex items-center justify-center gap-2 bg-white py-2">
+    <div className="bg-secondary flex items-center justify-center gap-2 rounded-lg py-2">
       <Button variant="ghost" onClick={() => handleChangeMonth(-1)}>
         <ChevronLeft />
       </Button>
