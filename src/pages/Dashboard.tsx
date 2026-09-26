@@ -2,6 +2,8 @@ import * as React from "react";
 import MonthSlider from "@/components/dashboard/MonthSlider";
 import { Badge } from "@/components/ui/badge";
 import { isCurrentMonth } from "@/lib/date";
+import { Button } from "@/components/ui/button";
+import { Download, Plus } from "lucide-react";
 
 function Dashboard() {
   const [currentMonth, setCurrentMonth] = React.useState(new Date());
@@ -15,6 +17,16 @@ function Dashboard() {
               This is Month
             </Badge>
           )}
+        </div>
+        <div className="flex items-center gap-2">
+          <Button variant="secondary">
+            <Download />
+            Export CSV
+          </Button>
+          <Button>
+            <Plus />
+            Add Transaction
+          </Button>
         </div>
       </div>
     </>
