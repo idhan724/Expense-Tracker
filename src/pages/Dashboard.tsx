@@ -4,6 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import { isCurrentMonth } from "@/lib/date";
 import { Button } from "@/components/ui/button";
 import { Download, Plus } from "lucide-react";
+import StatsCards from "@/components/dashboard/StatsCards";
 
 function Dashboard() {
   const [currentMonth, setCurrentMonth] = React.useState(new Date());
@@ -29,6 +30,7 @@ function Dashboard() {
           </Button>
         </div>
       </div>
+      <StatsCards />
     </>
   );
 }
