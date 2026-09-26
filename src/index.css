@@ -39,6 +39,12 @@
   --color-card: var(--card);
   --color-foreground: var(--foreground);
   --color-background: var(--background);
+  --color-income: var(--income);
+  --color-income-light: var(--income-light);
+  --color-income-deep: var(--income-deep);
+  --color-expense: var(--expense);
+  --color-expense-light: var(--expense-light);
+  --color-expense-deep: var(--expense-deep);
   --radius-sm: calc(var(--radius) * 0.6);
   --radius-md: calc(var(--radius) * 0.8);
   --radius-lg: var(--radius);
@@ -81,6 +87,12 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
+  --income: oklch(69.59% 0.149 162.5);
+  --income-light: oklch(0.9505 0.0507 163.05);
+  --income-deep: oklch(0.596 0.127 163.3);
+  --expense: oklch(0.645 0.215 16.4);
+  --expense-light: oklch(0.9414 0.0298 12.58);
+  --expense-deep: oklch(0.5859 0.222 17.58);
 }
 
 .dark {
